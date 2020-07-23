@@ -48,7 +48,7 @@ export default class FunctionDetails {
         out += this.name + '(' + Helpers.removeArgumentDefault(this.arguments) + ') ' + after;
 
         if (includeBody) {
-            out += '\n{\n' + (snippet ? Helpers.spacer() + '${0}' : '') + '\n}';
+            out += '{\n' + (snippet ? Helpers.spacer() + '${0}' : '') + '\n}';
         }
         return out;
     }
