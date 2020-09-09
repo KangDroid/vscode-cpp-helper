@@ -7,6 +7,11 @@ C++ Helper extension for [VSCode](https://code.visualstudio.com/).
 * Generating implementation for c++ declarations.
 * Generating header guard for headers.
 
+## TO build
+```
+$ vsce package
+```
+
 ## Configuration
 
 ### CppHelper.SourcePattern:
